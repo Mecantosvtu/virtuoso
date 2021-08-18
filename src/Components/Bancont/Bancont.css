@@ -1,0 +1,42 @@
+
+.ban{
+    background:url(./team.jpg);background-size: cover;height:530px;
+    padding:0;
+    margin:auto;
+    max-width: 1200px;
+}
+.bancont{
+    width:50%;
+    position: relative;
+    top:50px;
+    margin-top:40px;
+}
+
+.ban-heading h1{
+    color:#000;
+}
+.ban-heading span{
+    color:red;
+}
+.ban-content p , .ban-content1 p{
+    font-size: 17px;
+    padding:20px;
+    line-height: 2;
+
+} 
+.ban-content-bold{
+    text-align: center;
+    font-weight: 900;
+    font-size: 17px;
+}
+.ban-content-button {
+    align-items: center;
+    padding:15px 20px;
+    background:#234A8B;
+    color:#fff;
+    position: relative;
+    left:40%;
+    top:20px;
+    border-radius: 5px;
+    font-size: 17px;
+}

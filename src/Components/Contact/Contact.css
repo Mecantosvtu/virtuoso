@@ -1,0 +1,76 @@
+
+.contact-bg{
+    background-image: url(./contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 650px;
+    margin-top: 40px;
+    
+}
+.contactcontainer{width:100%}
+.contact-us{
+    width:50%;
+    float:left;
+}
+
+.location,.mail1,.phone1{
+    
+    color: #fff;
+    padding-top:60px;
+    text-align: center;
+}
+.loc-icon svg,.mail-icon svg,.ph-icon svg{
+    background-color: chocolate;
+    font-size: 70px;
+    padding : 5px 20px;
+    border-radius: 50%;
+  }
+  .loc-icon svg:hover {
+      background-color: darkgray;
+      color:#0f5298;
+      transition: 0.5s;
+  }
+  .mail-icon svg:hover {
+    background-color: darkgray;
+    color:#0f5298;
+    transition: 0.5s;
+}
+.ph-icon svg:hover{
+    background-color: darkgray;
+    color:#0f5298;
+    transition: 0.5s;
+}
+input[type=text]{
+    padding:8px 20px;
+    border-radius: 10px;
+    width:20%;
+    
+}
+input[type=email],
+input[type=tel]{
+    padding:8px 20px;
+    border-radius: 10px;
+    width:40%;
+}
+textarea{
+    border-radius: 10px;
+    padding:12px 10px;
+   
+}
+
+.contactform{
+    text-align: center;
+    padding-top: 120px;
+}
+.contactform h1{
+    color : orangered
+}
+.formbtn{
+    border:none;
+    background:orangered;
+    color:#fff;
+    padding :8px 20px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.summary{padding-top: 10px;}

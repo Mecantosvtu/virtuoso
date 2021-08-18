@@ -1,0 +1,25 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
+.text-background{
+    background:#234A8B;
+}
+.text-heading h1{
+    color:#fff;
+}
+   
+.text-heading span{
+    color:red
+}
+.text-heading{
+  
+    text-align: center;
+    padding:20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.text-content{
+    text-align: center;
+    color:#fff;
+    font-weight:lighter;
+    padding: 20px;
+    padding-bottom: 50px;
+}

@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300,@400,@500,@600,@700&display=swap');
+.header{
+    align-items: center!important;
+    font-family: 'Open Sans', sans-serif!important;
+    height:55px !important;
+    margin-top: 15px;
+    position: sticky;
+    z-index: 2000;
+    width:100%;
+    top:0;
+    
+}
+.header-left{
+    float:left;
+    color:#0f5298!important;
+    font-weight: 700!important;
+    padding-top:10px;
+    width:50%;
+   
+}
+.header-left h1{font-size:30px!important;}
+.header-right{
+    float:right;
+    padding:5px ;
+    justify-content: space-evenly;
+    display:flex!important;
+    align-items:center!important;
+    justify-content: space-evenly;
+    color:#0f5298!important;
+    font-size: 13px!important;
+    font-weight: 200!important;
+    width:50%;
+    
+}
+.header-right >a >h4 {
+    cursor:pointer!important;
+    padding:5px 30px;
+    transition: transform 200ms ease-in-out!important;
+  
+}
+.header-right >a >h4:hover{
+    transform: scale(1.09)!important;
+    background-color:#0f5298!important;
+    border-radius: 2px!important;
+    padding: 5px 20px!important;
+    letter-spacing: 0.5px!important;
+    color:white!important;
+    cursor: pointer!important;
+}

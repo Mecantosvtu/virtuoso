@@ -1,0 +1,37 @@
+
+.card-wrapper1{
+    padding:0 20px;
+    box-sizing: border-box;
+    padding-top: 60px;
+}
+
+.card1{
+    border-radius: 16px;
+    overflow: hidden;
+
+}
+
+.corouselpage{
+    width:100%;
+    background-image: url(./images/blueback.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 50px;
+    margin-top: 40px;
+}
+
+.corousel-cont{
+    
+    text-align: center;
+    padding-top:40px;
+    color:#fff;
+    
+}
+.card-image img{
+    width:200px;
+    height:200px;
+}
+.corousel-content p{
+    line-height: 1.6;
+    padding-top: 20px;
+}

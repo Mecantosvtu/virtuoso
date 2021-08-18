@@ -1,0 +1,47 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+.banner{
+    background-image: url(./softresting.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:650px;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+
+}
+.bannercont{
+    color:#fff;
+    position:relative;
+     top:180px;
+
+}
+.bannercont h1{
+    font-size: 50px;
+    padding-top: 10px;
+}
+.bannercont p{
+    font-size: 25px;
+    padding-top: 10px;
+    font-weight: 300;
+}
+
+.ban-btn{
+    position: relative;
+    top:20px;
+    border:none;
+    background: #0f5298;
+    padding:10px 50px;
+    text-align: center;
+    color:#fff;
+    font-size: 22px;
+    cursor: pointer;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+.ban-btn:hover{
+    background-color:chocolate;
+    transition:0.3s;
+    color:#0f5298
+}

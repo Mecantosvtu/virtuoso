@@ -42,7 +42,7 @@ function Slider3(){
             <div className="card-wrapper">
                 <div className="card">
                 <div className="card-image">
-                    <img src={java} alt"java" />
+                    <img src={java} alt="java" />
                 </div>
                 </div>
             </div>

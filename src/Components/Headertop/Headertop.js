@@ -1,6 +1,6 @@
 import React from 'react'
 import './Headertop.css'
-import {FaEnvelope, FaFacebook, FaInstagram, FaLinkedin, FaMobile, FaTwitter} from 'react-icons/fa'
+
 const Headertop = () => {
     return (
         <div>

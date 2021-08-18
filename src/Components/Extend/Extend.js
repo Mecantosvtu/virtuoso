@@ -6,7 +6,7 @@ const Extend = () => {
         <div>
             <div className="wrapper">
             <div className="image">
-                <img src={image}></img>
+                <img src={image} alt="extend"></img>
             </div>
             <div class="extend-content">
             <div className="extend-heading">

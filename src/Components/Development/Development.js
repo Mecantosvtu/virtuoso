@@ -6,7 +6,7 @@ const Development = () => {
         <div className="wrapper">
             <div class="development">
             <div className="develop-image">
-                 <img src={image}></img>
+                 <img src={image} alt="Development"></img>
             </div>
             <div class="develop-content">
                 <h1>Development</h1>

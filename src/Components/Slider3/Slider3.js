@@ -70,7 +70,7 @@ function Slider3(){
             <div className="card-wrapper">
                 <div className="card">
                 <div className="card-image">
-                    <img src={react} alt"react" />
+                    <img src={react} alt="react" />
                 </div>
                 </div>
             </div>

@@ -11,7 +11,7 @@ const Testing = () => {
             </div>
             
             <div className="test-image">
-                 <img src={image}></img>
+                 <img src={image} alt="Testing"></img>
             </div>
            
             </div>

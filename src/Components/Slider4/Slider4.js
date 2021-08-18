@@ -35,49 +35,49 @@ function Slider4(){
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={sql}/>
+                    <img src={sql} alt="sql" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={java}/>
+                    <img src={java} alt="java" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={mongo}/>
+                    <img src={mongo} alt="mongo" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={soapui}/>
+                    <img src={soapui} alt="soapui" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={node}/>
+                    <img src={node} alt="node" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={react}/>
+                    <img src={react} alt="react" />
                 </div>
                 </div>
             </div>
             <div className="card-wrapper1">
                 <div className="card1">
                 <div className="card-image">
-                    <img src={micro}/>
+                    <img src={micro} alt="micro" />
                 </div>
                 </div>
             </div>

@@ -1,0 +1,28 @@
+.testing{
+    width:100%;
+    margin-top:50px;
+}
+
+.test-image img{
+    width:500px; height:300px;
+}
+.test-content{
+    padding-top:20px;
+    line-height:1.6;
+    width:50%;
+    float:left;
+}
+.test-content h1{
+    color:#0f5298
+}
+
+@media only screen and (max-width:960px){
+    .test-content{
+        width:100%;
+        text-align: justify;
+        padding-bottom: 20px;
+    }
+    .test-image img{
+        width:100%; height:auto;
+    }
+}

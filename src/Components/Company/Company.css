@@ -1,0 +1,43 @@
+
+.wrapper{
+    padding:0px;
+    margin:auto;
+    max-width:1100px;
+}
+.fin{margin-top: 100px;width:60%;}
+.fin h3{color: blueviolet;line-height: 2;}
+.fin1 h3{color: blueviolet;line-height: 2;}
+.finance1{width:40%;float:left;}
+.finance2{width:40%;float:right}
+.fin1{margin-top: 40px;width:60%;padding:40px 0px;}
+.finance3{width:40%;float:left}
+.finance4{width:40%;float:right}
+.fin-icon{
+    color:#0f5298 ;
+    font-size: 30px;
+}
+
+@media only screen and (max-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+       
+    }
+    .fin{
+        width:100%;
+        text-align: center;
+    }
+
+    .fin1{
+        width:100%;
+        text-align: center;
+    }
+    .finance1,.finance2,.finance3,.finance4{
+        width:100%;
+        float:none;
+       
+    }
+    
+
+}
+

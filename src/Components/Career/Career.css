@@ -1,0 +1,79 @@
+.career-form{
+    width:100%;
+    text-align: center;
+    color:cornsilk;
+}
+.career-form-content{
+    text-align: center;
+}
+input
+.career-btn{
+    background-color: blueviolet;
+    padding :8px 20px;
+    cursor: pointer;
+}
+.careerform-file,.careerform-text,.careerform-mail,.careerform-dob,.careerform-degree,.careerform-hsc,.careerform-sslc,.career-btn,.careerform-image{
+    margin-top:15px;
+}
+.career-page{
+    width:100%;
+    margin-top: 60px;
+}
+.career-form-heading{
+    width:30%;
+    float:left;
+    padding-top: 60px;
+    color:#fff;
+}
+.career-form{
+    width:60%;
+    float:right;
+    padding-top:50px;
+}
+.career-page-background{
+    background: url(./carback.webp);
+    height: 600px;
+}
+.careerform-mail{display: flex;padding-left:25px;}
+.careerform-text input,.careerform-mail input,.careerform-degree input,.careerform-hsc input,.careerform-sslc input{
+      padding:5px 20px;
+      border-radius: 5px;
+}
+.form-control1 input{
+    padding:5px 20px;
+    border-radius: 10px;
+}
+.career-form-content h1{
+    color:chocolate;
+}
+
+
+@media only screen and (max-width:960px){
+    .career-form-heading{
+        width:100%;
+        float:none;
+        text-align: center;
+    }
+    .career-form{
+        width:100%;
+        float:none;
+    }
+    .career-form input[type=text],  .career-form input[type=email],.career-form input[type=tel]{
+        width:100%;
+        float: none;
+    }
+    .careerform-dob {width:100%;float:none}
+    .career-page{
+        margin-top:610px;
+    }
+   .career-page-background{
+    background: url(./carback.webp);
+    height:auto;width:100%;
+   }
+.col-md-3 input,.col-md-4 input{
+    border:none;
+    border-bottom: 1px solid blueviolet;
+    background: transparent;
+}
+
+}

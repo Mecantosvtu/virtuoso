@@ -1,0 +1,47 @@
+
+.mission-vission{
+    width:100%;
+    margin-top: 40px;
+}
+.vission{
+    width:50%;
+    float:left;
+    background-color: cornflowerblue;
+    padding:40px 100px;
+    border-radius: 50px;
+    padding-bottom: 150px;
+}
+.vission:hover{
+    color:#fff;
+    background-color:chocolate;
+    transition:0.5s;
+}
+.mission:hover{
+    color:#fff;
+    background-color:hotpink;
+    transition:0.5s;
+}
+.vission-icon, .mission-icon{
+    font-size: 55px;
+    color:#fff;
+}
+.vission-icon fa:hover, .mission-icon fa:hover{color:cornflowerblue}
+.mission{width:50%;float:left;background-color: rosybrown;border-radius: 50px;padding:40px 100px;}
+.vission-icon,.vission h2{
+    text-align: center;
+}
+.vission p,.mission p{text-align: justify;line-height: 1.5;margin-top: 10px;}
+
+.mission-icon,.mission h2{
+    text-align: center;
+}
+
+
+@media only screen and (max-width:960px){
+    .vission,.mission{
+        width:100%;
+        float:none;
+        padding:20px 60px;
+    }
+
+}

@@ -1,0 +1,40 @@
+.development{
+    width:100%;
+    margin-top:50px;
+}
+.develop-image{
+    width:50%;
+    float:left;
+}
+.develop-image img{
+    width:500px; height:300px;
+}
+.develop-content{
+    float:right;
+    width:50%;
+    padding-top:20px;
+    line-height:1.6;
+}
+.develop-content h1{
+    color:#0f5298
+}
+.clear{
+    clear: both;
+}
+
+@media only screen and (max-width:960px){
+   .development{
+       width:100%;
+   }
+    .develop-image{
+        width:100%;
+        float:none;
+    }
+    .develop-content{
+        width:100%;
+        text-align: justify;
+    }
+    .develop-image img{
+        width:100%; height:auto;
+    }
+}

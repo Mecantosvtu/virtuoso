@@ -2,7 +2,6 @@ import React from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Headertop from './Components/Headertop/Headertop'
 import Header from './Components/Header/Header'
-import Slider1 from './Components/Slider1/Slider1'
 import Company from './Components/Company/Company'
 import Development from './Components/Development/Development'
 import Testing from './Components/Testing/Testing'

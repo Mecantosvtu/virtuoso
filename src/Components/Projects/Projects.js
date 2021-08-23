@@ -15,9 +15,9 @@ const Projects = () => {
                     <p>We have worked on 100+ projects to develop web applications,  mobile applications, data platforms, software, automation and integration solutions.</p>
                 </div>
                 <div className="projects">
-                    <img src={easy}/>
-                    <img src={twint}/>
-                    <img src={benling}/>
+                    <img src={easy} alt="easy" />
+                    <img src={twint} alt="twint" />
+                    <img src={benling} alt="benling" />
                 </div>
                 <button className="project-btn">More</button>
 

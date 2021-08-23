@@ -45,3 +45,19 @@
     transition:0.3s;
     color:#0f5298
 }
+
+@media only screen and (max-width: 768px){
+    .banner{
+        width:auto;
+        height:700px;
+    }
+    .bannercont{
+        margin-left: 50px;
+    }
+    .bannercont h1{
+        font-size: 30px;
+    }
+    .bannercont p{
+        font-size: 17px;
+    }
+}

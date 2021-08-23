@@ -13,6 +13,18 @@
 }
 .mail{
     padding:10px;
+    float:left;
 }
 
+@media only screen and (max-width : 960px){
+    .header-top{
+           width:100%;
+           
+    }
+    .phone,.mail{
+        font-size: 9px;
+           
+    }
+ 
+}
 

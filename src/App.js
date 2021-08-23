@@ -13,7 +13,7 @@ import Banner from './Components/Banner/Banner'
 import Mission from './Components/Mission/Mission'
 import Career from './Components/Career/Career'
 import Projects from './Components/Projects/Projects'
-import Footer from './Components/Footer/Footer'
+
 export const App = () => {
     return (
         <div>
@@ -30,7 +30,7 @@ export const App = () => {
              <Projects />
              <Contact1 />
              <Career />
-             <Footer />
+             
              
         </div>
     )
